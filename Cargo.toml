@@ -1,0 +1,21 @@
+[package]
+name = "crypto"
+version = "0.1.0"
+authors = ["psyche-16"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "blockchainlib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "blockchain"
+path = "src/main.rs"
+
+[dependencies]
+openssl = { version = "0.10", features = ["vendored"] }
+hex = "0.4.0"
+crypto-hash = "0.3.3"
+

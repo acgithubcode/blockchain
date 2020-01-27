@@ -1,0 +1,9 @@
+prefix=/home/psyche-16/project/blockchain/crypto/target/debug/build/openssl-sys-6edcbf9a7aa98339/out/openssl-build/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 1.1.1d
+Requires: libssl libcrypto
